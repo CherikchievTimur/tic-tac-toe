@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.field{    
+    height: 75vmin;
+    width: 75vmin;
+    border: 1px solid white;
+}
+
+.row{
+    display: flex;
+}
+
+.item{
+    height: calc(75vmin / 3);
+    width: calc(75vmin / 3);
+    border: 1px solid black;
+}
