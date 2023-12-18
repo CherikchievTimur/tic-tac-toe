@@ -15,15 +15,39 @@
 .field{    
     height: 75vmin;
     width: 75vmin;
-    border: 1px solid white;
 }
 
 .row{
     display: flex;
 }
 
-.item{
+.row:first-child, 
+.row:nth-child(2){
+    border-bottom: 3px solid #53C1FF;
+}
+
+.col{
     height: calc(75vmin / 3);
     width: calc(75vmin / 3);
-    border: 1px solid black;
+}
+
+.col:first-child,
+.col:nth-child(2) {
+    border-right: 3px solid #53C1FF;
+}
+
+.x{
+    color: #53C1FF;
+    font-size: 35vmin;
+    text-align: center;
+    height: fit-content;
+    line-height: 0.7em;
+}
+
+.n {
+    color: tomato;
+    font-size: 35vmin;
+    text-align: center;
+    height: fit-content;
+    line-height: 0.60em;
 }
